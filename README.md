@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Proje Adı
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Proje Açıklaması
+Projenin kısa bir açıklamasını buraya yazın. Örneğin:
 
-## Available Scripts
+Bu proje, kullanıcı ve sipariş yönetimi yapabilen bir React uygulamasıdır. Kullanıcı ekleme, silme, düzenleme ve siparişleri görüntüleme gibi temel işlevler sunar.
 
-In the project directory, you can run:
+## İçindekiler
 
-### `npm start`
+- [Özellikler](#özellikler)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Ekran Görüntüleri](#ekran-görüntüleri)
+- [Teknolojiler](#teknolojiler)
+- [Katkıda Bulunanlar](#katkıda-bulunanlar)
+- [Lisans](#lisans)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Özellikler
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Kullanıcı ekleme, silme ve düzenleme
+- Sipariş verilerini görüntüleme
+- Giriş ve kayıt işlemleri
+- Bildirimler ve hata mesajları
+- Mobil uyumlu ve kullanıcı dostu arayüz
 
-### `npm test`
+## Kurulum
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-### `npm run build`
+1. **Projeyi Klonlayın:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone https://github.com/kullanıcı-adınız/proje-ismi.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Proje Dizini İçine Girin:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd proje-ismi
+    ```
 
-### `npm run eject`
+3. **Gerekli Paketleri Kurun:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Projeyi Çalıştırın:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Tarayıcınızda `http://localhost:3000` adresine giderek projeyi görüntüleyebilirsiniz.
 
-## Learn More
+## Kullanım
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Kullanıcı Girişi:** Giriş yaparak kullanıcı ve sipariş yönetimi işlemlerine erişebilirsiniz.
+2. **Kullanıcı Yönetimi:** Kullanıcı ekleyebilir, silebilir veya düzenleyebilirsiniz.
+3. **Sipariş Yönetimi:** Seçili kullanıcıya ait siparişleri görüntüleyebilir ve sipariş bilgilerini düzenleyebilirsiniz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Teknolojiler
 
-### Code Splitting
+Projede kullanılan temel teknolojiler:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **React**: Kullanıcı arayüzü geliştirme.
+- **Reactstrap**: Bootstrap tabanlı UI bileşenleri.
+- **React Router**: Sayfa yönlendirme ve gezinme.
+- **React Toastify**: Bildirim yönetimi.
+- **Git**: Sürüm kontrol sistemi.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
