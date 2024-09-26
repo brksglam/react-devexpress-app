@@ -10,10 +10,7 @@ Bu proje, kullanıcı ve sipariş yönetimi yapabilen bir React uygulamasıdır.
 - [Özellikler](#özellikler)
 - [Kurulum](#kurulum)
 - [Kullanım](#kullanım)
-- [Ekran Görüntüleri](#ekran-görüntüleri)
 - [Teknolojiler](#teknolojiler)
-- [Katkıda Bulunanlar](#katkıda-bulunanlar)
-- [Lisans](#lisans)
 
 ## Özellikler
 
